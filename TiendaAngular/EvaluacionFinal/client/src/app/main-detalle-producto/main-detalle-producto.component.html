@@ -1,0 +1,19 @@
+<app-main-menu></app-main-menu>
+<div class="detalleproductos">
+  <div class="cabecera">
+    <h1 class="titulo">{{detProducto.producto}}</h1>
+  </div>
+  <hr>
+  <div class="detalle">
+    <div class="imagen">
+      <img src="/assets/{{detProducto.imagen}}">
+    </div>
+		<div class="informacion">
+      <h4>{{detProducto.producto}}</h4>
+			<p>Precio: ${{detProducto.precio}}</p>
+    </div>
+  </div>
+	<div>
+		<button mat-flat-button color= "primary" (click)="regresar();" class="boton" >Atrás</button>
+	</div>
+</div>

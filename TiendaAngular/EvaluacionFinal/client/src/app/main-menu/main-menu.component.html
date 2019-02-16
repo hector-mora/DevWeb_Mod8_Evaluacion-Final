@@ -1,0 +1,15 @@
+<nav>
+    <div class="menubar">
+      <div class="titulo"><b>La Bodega</b></div>
+      <ul class="menu">
+        <li><a (click)="onMainProductos()"><mat-icon>view_module</mat-icon></a></li>
+        <li>
+          <a (click)="onMainCarrito()">
+            <mat-icon *ngIf="carro.length == 0">shopping_cart</mat-icon>
+            <mat-icon *ngIf="carro.length != 0" matBadge="{{carro.length}}" matBadgeColor="warn">shopping_cart</mat-icon>
+          </a>
+        </li>
+        <li><a (click)="onlogout()"><mat-icon>exit_to_app</mat-icon></a></li>
+      </ul>
+    </div>
+</nav>

@@ -1,0 +1,31 @@
+<app-main-menu></app-main-menu>
+<div id="carrito">
+	<div class="cabecera">
+		<h2 class="titulo">Carrito de compras</h2>
+	</div>
+	<div class="detallecarrito">
+		<ul class="lista">
+			<li *ngFor="let productos of carrito">
+				<div class="tarjeta">
+          <div class="col-izq">
+            <img src="/assets/{{productos.imagen}}">
+          </div>
+					<div class="col-der">
+  					<p>{{productos.producto}}</p>
+  					<p>Unidades: {{productos.cantidad}}</p>
+            <p>Subtotal: ${{productos.precio*productos.cantidad}}</p>
+          </div>
+				</div>
+			</li>
+		</ul>
+		<div class="total">
+			<div>
+				<h2 class="titulo">Total: ${{total}}</h2>
+			</div>
+			<div>
+				<button mat-flat-button color= "warn" class="boton" (click)="regresar();">Cancelar</button>
+				<button mat-flat-button color= "primary" [disabled]="(carrito.length == 0)" class="boton" (click)="pagar();">Pagar</button>
+			</div>
+		</div>
+	</div>
+</div>
