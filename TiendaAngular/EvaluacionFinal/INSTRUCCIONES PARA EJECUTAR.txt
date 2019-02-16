@@ -1,0 +1,12 @@
+Con las siguientes instucciones se ejecutara el servidor "http://localhost:3000", con una estructura MEAN (Mongo-Express-Angular-Node) donde el archivo index.js tenemos la configuracion del servidor con express y en la carpeta server los modelos de mongoose y las rutas; por otro lado en la carpeta (static) "client" tenemos el frontend de Angular con el ultimo build realizado en la carpeta "dist" que express buscara como referencia de front end.
+
+Simplemente se debe:
+
+=> Crear la BD en mongodb (carpeta BASE DE DATOS MONGO)
+
+=> Abrir la consola de comandos
+	-ubicarse en la carpeta de "cd ...TiendaAngular\EvaluacionFinal"
+	-ejecutar node index.js
+
+=> Abrir Google Chrome en la direccion "http://localhost:3000"
+
