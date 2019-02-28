@@ -1,0 +1,11 @@
+.navbar-fixed  nav {
+  width: 85%;
+}
+
+.titulo-menu{
+  margin-left: 0.75rem;
+}
+
+nav i.material-icons {
+  display: inline-block;
+}

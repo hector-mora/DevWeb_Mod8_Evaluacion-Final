@@ -1,0 +1,41 @@
+.contenedor-login {
+  background: url('../images/login-fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 900px;
+}
+
+form {
+  margin: 0;
+  padding-top: 20%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.titulo-login {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.titulo-login h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  color: white;
+}

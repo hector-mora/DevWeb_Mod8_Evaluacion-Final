@@ -1,0 +1,33 @@
+.contenedor-productos{
+ margin-top: 0.5rem;
+}
+
+.productos {
+  padding: 0.5rem !important;
+}
+
+.card-image{
+  margin: 0.25rem !important;
+}
+
+.card-image img{
+  height: 190px;
+}
+
+.card-content{
+  padding: 1rem !important;
+}
+
+.card-action{
+  padding: 1rem !important;
+  margin: 0 !important;
+}
+
+.row{
+  margin: 0 !important;
+}
+
+.cantidad{
+  margin: 0 0 0 5px !important;
+
+}

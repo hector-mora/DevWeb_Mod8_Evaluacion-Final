@@ -1,0 +1,28 @@
+.contenedor-productos{
+ margin-top: 0.5rem;
+}
+
+.productos {
+  padding: 0.5rem !important;
+}
+
+.card-image{
+  margin: 0.25rem !important;
+}
+
+.carrito-img {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.card-content{
+  padding: 1rem !important;
+}
+
+.row{
+  margin: 0 !important;
+}
+
+.pagar{
+  margin: 0 0 0 1rem !important;
+}
